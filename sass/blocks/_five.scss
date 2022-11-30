@@ -1,0 +1,62 @@
+.five {
+    padding: 260px 0;
+
+}
+
+.five__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fv__left {
+    width: 100%;
+    max-width: 700px;
+    margin-top:158px ;
+}
+
+.fv-right {
+    width: 100%;
+    max-width: 740px;
+}
+
+.five__list {
+    margin-bottom: 30px;
+}
+
+.five__title {
+    font-size: 64px;
+    line-height: 72px;
+}
+
+.fv__box {
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.fv__think {
+    padding: 630px 20px 20px;
+    width: 100%;
+    max-width: 240px;
+    background-image: url('../images/five/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fv__think:nth-child(2) {
+    background-image: url('../images/five/img2.jpg');
+}
+
+.fv__think:nth-child(3) {
+    background-image: url('../images/five/img3.jpg');
+}
+
+.five__name {
+    background: rgba(241, 245, 248, 0.8);
+    backdrop-filter: blur(15px);
+    padding: 16px 18px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    color: #252D35;
+}

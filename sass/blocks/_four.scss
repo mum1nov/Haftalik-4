@@ -1,0 +1,80 @@
+.four {}
+
+.four__inner {}
+
+.four__title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 65px;
+    text-align: center;
+    color: #252D35;
+}
+
+.four__text {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #252D35;
+}
+
+.four__list {
+    justify-content: space-between;
+}
+
+.foor__item {
+    width: 100%;
+    max-width: 134px;
+    position: relative;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+
+.foor__item::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url("../images/four/img1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: 28px;
+    top: 0%;
+    
+}
+.foor__item:nth-child(2):before{
+    background-image: url('../images/four/img2.png');
+}
+.foor__item:nth-child(3):before{
+    background-image: url('../images/four/img3.svg');
+}
+.foor__item:nth-child(4):before{
+    background-image: url('../images/four/img4.png');
+}
+.foor__item:nth-child(5):before{
+    background-image: url('../images/four/img5.png');
+}
+.foor__item:nth-child(6):before{
+    background-image: url('../images/four/img6.png');
+}
+.four__name {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    color: #252D35;
+}
+
+
+.number__text {
+    display: flex;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin-left: 5px;
+}

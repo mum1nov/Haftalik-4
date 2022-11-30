@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  background-color: #fff;
   margin: 0%;
   display: flex;
   flex-direction: column;
@@ -273,4 +274,218 @@ img {
 
 .th-box__text {
   margin: 0;
+}
+
+.four__title {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 65px;
+  text-align: center;
+  color: #252D35;
+}
+
+.four__text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #252D35;
+}
+
+.four__list {
+  justify-content: space-between;
+}
+
+.foor__item {
+  width: 100%;
+  max-width: 134px;
+  position: relative;
+  padding-top: 100px;
+  margin-top: 50px;
+}
+
+.foor__item::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-image: url("../images/four/img1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: 28px;
+  top: 0%;
+}
+
+.foor__item:nth-child(2):before {
+  background-image: url("../images/four/img2.png");
+}
+
+.foor__item:nth-child(3):before {
+  background-image: url("../images/four/img3.svg");
+}
+
+.foor__item:nth-child(4):before {
+  background-image: url("../images/four/img4.png");
+}
+
+.foor__item:nth-child(5):before {
+  background-image: url("../images/four/img5.png");
+}
+
+.foor__item:nth-child(6):before {
+  background-image: url("../images/four/img6.png");
+}
+
+.four__name {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+  color: #252D35;
+}
+
+.number__text {
+  display: flex;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  margin-left: 5px;
+}
+
+.five {
+  padding: 260px 0;
+}
+
+.five__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fv__left {
+  width: 100%;
+  max-width: 700px;
+  margin-top: 158px;
+}
+
+.fv-right {
+  width: 100%;
+  max-width: 740px;
+}
+
+.five__list {
+  margin-bottom: 30px;
+}
+
+.five__title {
+  font-size: 64px;
+  line-height: 72px;
+}
+
+.fv__box {
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.fv__think {
+  padding: 630px 20px 20px;
+  width: 100%;
+  max-width: 240px;
+  background-image: url("../images/five/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.fv__think:nth-child(2) {
+  background-image: url("../images/five/img2.jpg");
+}
+
+.fv__think:nth-child(3) {
+  background-image: url("../images/five/img3.jpg");
+}
+
+.five__name {
+  background: rgba(241, 245, 248, 0.8);
+  backdrop-filter: blur(15px);
+  padding: 16px 18px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  color: #252D35;
+}
+
+.six__inner {
+  background-color: #F1F4F7;
+  padding: 65px 50px;
+  background-image: url("../images/six/bg-img.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.six__box {
+  width: 100%;
+  max-width: 710px;
+  margin-left: auto;
+}
+
+.six__title {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 65px;
+  /* or 108% */
+  /* #1C242C */
+  color: #252D35;
+}
+
+.six__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* #1C242C */
+  color: #252D35;
+}
+
+.six__form {
+  position: relative;
+}
+
+.six__form::before {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-image: url("../../images/six/chamadan.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: 0;
+}
+
+.six__btn {
+  background: linear-gradient(86.93deg, #B8884B 0%, #CC9C55 100%);
+  border: 2px solid rgba(241, 245, 248, 0.3);
+  box-shadow: 0px 8px 20px rgba(202, 154, 84, 0.35);
+}
+
+.six__select {
+  position: relative;
+  width: 100%;
+  max-width: 240px;
+  background-color: #E4E4E3;
+  padding: 10px 15px 10px 40px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #252D35;
+}
+
+.btn__img {
+  width: 100%;
+  max-width: 50px;
+  height: 100%;
+  max-height: 50px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,76 @@
+.six {}
+
+.six__inner {
+    background-color: #F1F4F7;
+
+    padding: 65px 50px;
+    background-image: url('../images/six/bg-img.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.six__box {
+    width: 100%;
+    max-width: 710px;
+    margin-left: auto;
+
+}
+
+.six__title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 65px;
+    /* or 108% */
+
+
+    /* #1C242C */
+
+    color: #252D35;
+}
+
+.six__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* #1C242C */
+
+    color: #252D35;
+}
+.six__form{
+    position: relative;
+}
+.six__form::before{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-image: url('../../images/six/chamadan.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    left: 0;
+}
+.six__btn {
+    background: linear-gradient(86.93deg, #B8884B 0%, #CC9C55 100%);
+    border: 2px solid rgba(241, 245, 248, 0.3);
+    box-shadow: 0px 8px 20px rgba(202, 154, 84, 0.35);
+
+}
+
+.six__select {
+    position: relative;
+    width: 100%;
+    max-width: 240px;
+    background-color: #E4E4E3;
+    padding: 10px 15px 10px 40px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #252D35;
+}
+.btn__img {
+    width: 100%;
+    max-width: 50px;
+    height: 100%;
+    max-height: 50px;
+}
