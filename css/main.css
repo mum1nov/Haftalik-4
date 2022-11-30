@@ -215,4 +215,62 @@ img {
   width: 100%;
   max-width: 160px;
   row-gap: 40px;
+}
+
+.third {
+  padding-top: 180px;
+}
+
+.third__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-left {
+  width: 100%;
+  max-width: 740px;
+  padding: 632px 20px 20px;
+  background-image: url("../images/third/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.third-right {
+  width: 100%;
+  max-width: 740px;
+  padding: 632px 20px 20px;
+  background-image: url("../images/third/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.th-left__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  width: 100%;
+  max-width: 700px;
+  background: rgba(241, 245, 248, 0.8);
+  backdrop-filter: blur(15px);
+}
+
+.th-right__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  width: 100%;
+  max-width: 700px;
+  background: rgba(241, 245, 248, 0.8);
+  backdrop-filter: blur(15px);
+}
+
+.th-left__title {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.th-box__text {
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */
